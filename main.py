@@ -41,7 +41,7 @@ def main():
             except Exception as e:
                 print (e)
 
-        elif:
+        else:
             print ("unknow command")
 
 if __name__ == "__main__":
