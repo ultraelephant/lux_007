@@ -1,1 +1,3 @@
+"""Config file."""
+
 basepath = './'
