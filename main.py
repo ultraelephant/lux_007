@@ -1,3 +1,5 @@
+"""File server solution."""
+
 import argparse
 
 import config
@@ -5,7 +7,7 @@ import filesvc
 import utils
 
 def main():
-
+    """Main handler."""
     parser = argparse.ArgumentParser()
     parser.add_argument('nargs',nargs='*',default=None,help=argparse.SUPPRESS)
     args = parser.parse_args()
